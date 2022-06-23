@@ -1,0 +1,61 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.container {
+    border: 2px solid grey;
+    background-color: white;
+    margin: 5%;
+    height: 300px;
+    width: 600px;
+}
+
+.blue {
+    background-color: #17A2B8;
+    height: 80px;
+}
+
+#proPic {
+    height: 9%;
+    border: 5px solid white;
+    border-radius: 50%;
+    position: fixed; 
+    top: 8%;
+    margin: 2%;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    margin-top: 7%;
+}
+
+
+.location {
+    outline: 1px solid red;
+    display: flex;
+    font-weight: bold;
+    gap: 10px;
+}
+
+.sub {
+    font-weight: 500;
+}
+
+.settings {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+img {
+    height: 20px;
+}
+
+h1, .location, .sub, .settings {
+    margin: 5px;
+    margin-left: 5%;
+}
